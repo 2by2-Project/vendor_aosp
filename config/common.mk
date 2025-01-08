@@ -139,7 +139,7 @@ $(call enforce-product-packages-exist-internal,$(wildcard device/*/$(CUSTOM_BUIL
 endif
 
 # Bootanimation
-include vendor/aosp/config/bootanimation.mk
+#include vendor/aosp/config/bootanimation.mk
 
 # Charger
 PRODUCT_PACKAGES += \
@@ -264,3 +264,6 @@ include vendor/aosp/config/version.mk
 $(call inherit-product, vendor/aosp/config/ota.mk)
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
+
+# 2by2 Project
+include vendor/2by2/config/common.mk

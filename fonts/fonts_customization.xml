@@ -205,4 +205,9 @@
   <family customizationType="new-named-family" name="google-sans-clock">
     <font>GoogleSansClock-Regular.ttf</font>
   </family>
+
+  <!-- Dela Gothic One -->
+  <family customizationType="new-named-family" name="dela-gothic-one-regular">
+    <font>DelaGothicOne_Regular.ttf</font>
+  </family>
 </fonts-modification>
